@@ -31,7 +31,14 @@ True
 Q6:What does the flag in the command signify, and how does it impact the behavior of the git push and git pull commands in subsequent usage?
 
 links local branch to a remote branch, allowing to use simpler `git push` and `git pull` commands without specifying the remote or branch each time.
-
+-----------------------------------------------------------------------
+Practical Part:
+1-create a local Git repository using (git init) command
+2-create a SSH key using (ssh-keygen -t rsa -b 4096 -C tasneemmosameh@gmail.com) command
+3-add the SSH key to my GitHub account using (cat ~/.ssh/id_rsa.pub) command
+4-go to my github account "Settings > SSH and GPG keys" then add the key by "New SSH key" add the name of the key and past the key
+5-link the Git repository to my GitHub account using the SSH protocol using (git remote add origin git@github.com:Tasneem-IM/GitHub-Task.git) command
+6-Push changes to GitHub using(git add .   git commit -m "Initial commit") then (git push -u origin master ) then (git push -u origin main)
 
 
 
