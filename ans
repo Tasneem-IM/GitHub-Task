@@ -1,0 +1,40 @@
+Q1:Explain the purpose of the following Git commands:
+
+git status:Shows the status of files
+git init:initializes a new Git repository
+git commit: save staged changes with a message
+git push:Pushes changes from your local pc to GitHub
+----------------------------------------------------
+Q2:Ahmed claims that there is no need for the command, and it is better to commit changes directly from the working directory.
+whether you agree or disagree with Ahmed's statement. Provide reasons to support your answer?
+
+I disagree with Ahmed, because skipping Git commands like git add reduces control over what gets committed, and Using each Git command properly
+ensures organized commits, avoids mistakes, and supports better teamwork and version tracking.
+-----------------------------------------------------
+Q3:List two popular code hosting platforms besides GitHub.
+
+GitLab / Bitbucket 
+-------------------------------------------------------------
+Q4:What key features do code hosting providers offer to enhance version control for both individual developers and collaborative development environments?
+
+Remote repositories to store and access code from anywhere
+Collaboration tools (pull requests, code reviews, comments)
+Branching and merging support for team workflows
+Issue tracking to manage bugs and tasks
+Continuous Integration (CI/CD) to automate testing and deployment
+Access control and permissions for secure collaboration
+-----------------------------------------------------------
+Q5:True or False: A team can collaborate on a software project without relying on popular code hosting providers by setting up their own a self-hosted server for version control.
+
+True 
+---------------------------------------------------------------------
+Q6:What does the flag in the command signify, and how does it impact the behavior of the git push and git pull commands in subsequent usage?
+
+links local branch to a remote branch, allowing to use simpler `git push` and `git pull` commands without specifying the remote or branch each time.
+
+
+
+
+
+
+
